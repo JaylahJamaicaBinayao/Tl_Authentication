@@ -73,8 +73,8 @@ const ToDoList = () => {
         <View style={styles.profileInfo}>
           <Image source={require('../assets/jaying.png')} style={styles.idPicture} />
           <View style={styles.textContainer}>
-            <Text style={styles.name}>Name: Secuya, Evelyn Mag-aso</Text>
-            <Text style={styles.id}>School ID: 20211476</Text>
+            <Text style={styles.name}>Name: Binayao, Jaylah Jamaica T.</Text>
+            <Text style={styles.id}>School ID: 20201299</Text>
             <Text style={styles.section}>Section Code: IT35 B</Text>
             <Text style={styles.sd}>Course Description: Application Development</Text>
             <Text style={styles.cm}>Course Name: BSIT</Text>
