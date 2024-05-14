@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, TextInput, ActivityIndicator, TouchableOpacity, Image} from 'react-native'
-import React, { Profiler, useState } from 'react'
+import React, { Profiler, useState } from 'react';
 import { FIREBASE_AUTH } from '../firebaseConfig';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 
@@ -42,7 +42,7 @@ const signUp = async () => {
         <View style={styles.container}>
             <View style={styles.profile1}>
                 <Image
-                source={require("../assets/image.png")}
+                source={require("../assets/image1.png")}
                 style={styles.profile}
                  ></Image>
             </View>
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: "center",
-        backgroundColor: "#E3FEF7",
+        backgroundColor: "#FFDDD2",
         
     },
     input: {
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
         marginLeft: 35,
         marginRight: 35,
         borderRadius: 20,
-        backgroundColor: '#135D66',
+        backgroundColor: "#5755FE",
         height: 40,
         marginTop: 10
     },
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
         marginLeft: 35,
         marginRight: 35,
         borderRadius: 20,
-        backgroundColor: '#135D66',
+        backgroundColor: "#5755FE",
         height: 40
     },
     text: {
@@ -116,8 +116,8 @@ const styles = StyleSheet.create({
         margin: 10
     },
     profile: {
-        height: 250,
-        width: 400,
+        height: 200,
+        width: 240,
     },
     text1: {
         fontSize: 27,

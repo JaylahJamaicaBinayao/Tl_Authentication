@@ -52,13 +52,13 @@ const ToDoList = () => {
         <Button
           title="Delete"
           onPress={() => handleDeleteTodo(item.id)}
-          color="#135D66"
+          color="#5755FE"
         />
         <View style={{ width: 10 }} />
         <Button
           title="Edit"
           onPress={() => openEditModal(item.id, item.text)}
-          color="#135D66"
+          color="#5755FE"
         />
       </View>
     </View>
@@ -71,7 +71,7 @@ const ToDoList = () => {
       </View>
       <View style={styles.profileContainer}>
         <View style={styles.profileInfo}>
-          <Image source={require('../assets/belin.png')} style={styles.idPicture} />
+          <Image source={require('../assets/jaying.png')} style={styles.idPicture} />
           <View style={styles.textContainer}>
             <Text style={styles.name}>Name: Secuya, Evelyn Mag-aso</Text>
             <Text style={styles.id}>School ID: 20211476</Text>
@@ -90,7 +90,7 @@ const ToDoList = () => {
         value={text}
         onChangeText={setText}
       />
-      <Button title="Add" onPress={handleAddTodo} color="#135D66" />
+      <Button title="Add" onPress={handleAddTodo} color="#5755FE"/>
       <FlatList
         data={todos}
         renderItem={renderItem}
@@ -115,7 +115,7 @@ const ToDoList = () => {
               value={editItemText}
               onChangeText={setEditItemText}
             />
-            <Button title="Save" onPress={handleEditTodo} color="#135D66" />
+            <Button title="Save" onPress={handleEditTodo} color="#5755FE" />
           </View>
         </View>
       </Modal>
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#E3FEF7",
+    backgroundColor: "#FFDDD2",
   },
   header: {
     fontSize: 24,
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
     color: "white",
   },
   headerBox: {
-    backgroundColor: '#135D66',
+    backgroundColor: '#E178C5',
     padding: 10,
     marginBottom: 15,
     alignSelf: 'stretch',
@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
     width: '80%',
   },
   button: {
-    backgroundColor: '#135D66',
+    backgroundColor: "#5755FE",
     padding: 10,
     borderRadius: 5,
     marginTop: 10,
